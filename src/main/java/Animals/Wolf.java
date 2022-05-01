@@ -1,4 +1,8 @@
 package Animals;
 
-public class Wolf {
+public class Wolf extends Cornivorous implements Run{
+    @Override
+    public void run() {
+
+    }
 }

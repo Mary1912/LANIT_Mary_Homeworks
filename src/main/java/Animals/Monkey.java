@@ -1,4 +1,8 @@
 package Animals;
 
-public class Monkey {
+public class Monkey extends Herbivore implements Run{
+    @Override
+    public void run() {
+
+    }
 }
