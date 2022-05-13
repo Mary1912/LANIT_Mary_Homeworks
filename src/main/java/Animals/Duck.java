@@ -11,4 +11,9 @@ public class Duck extends Herbivore implements Fly,Swim {
     public void swim() {
 
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

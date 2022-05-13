@@ -5,4 +5,9 @@ public class Wolf extends Cornivorous implements Run{
     public void run() {
 
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

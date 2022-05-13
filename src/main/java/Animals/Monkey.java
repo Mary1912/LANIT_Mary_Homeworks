@@ -5,4 +5,9 @@ public class Monkey extends Herbivore implements Run{
     public void run() {
 
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

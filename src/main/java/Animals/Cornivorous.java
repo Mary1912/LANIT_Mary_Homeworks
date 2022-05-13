@@ -1,7 +1,11 @@
 package Animals;
 
-public class Cornivorous extends Animal{
-    public abstract void eat (){
+import food.Food;
+
+public class Cornivorous extends Animal {
+    @Override
+    public void eat(Food food) {
+
 
     }
 }

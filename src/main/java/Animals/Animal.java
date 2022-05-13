@@ -1,12 +1,9 @@
 package Animals;
 
+import food.Food;
+
 public abstract class Animal {
-    public String food;
 
-    public Animal(String food) {
-        this.food = food;
-    }
-
-    public abstract void eat ();
+    public abstract void eat (Food food);
 
 }

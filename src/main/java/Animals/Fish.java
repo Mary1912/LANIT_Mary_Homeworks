@@ -5,4 +5,9 @@ public class Fish extends Herbivore implements Swim{
     public void swim() {
 
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

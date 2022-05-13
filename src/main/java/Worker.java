@@ -1,5 +1,5 @@
 public class Worker {
-    public void feed(animal, foof){
+    public void feed(animal, food){
 
     }
 }

@@ -1,6 +1,6 @@
 import Animals.*;
-import Food.Grass;
-import Food.Meat;
+import food.Grass;
+import food.Meat;
 
 public class Zoo {
     public static void main(String[] args) {

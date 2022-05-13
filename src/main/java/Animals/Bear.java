@@ -1,14 +1,13 @@
 package Animals;
 
-public class Bear extends Cornivorous implements Run,Swim{
+public class Bear extends Cornivorous implements Run {
     @Override
     public void run() {
 
     }
 
     @Override
-    public void swim() {
+    public void eat() {
 
     }
-
 }
