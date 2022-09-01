@@ -5,14 +5,19 @@ import food.Grass;
 
 import java.sql.SQLOutput;
 
-public class Herbivore extends Animal {
+public abstract class Herbivore extends Animal {
+
+    public String toString() {
+        return "Травоядное";
+    }
 
     @Override
     public void eat(Food food) {
         if (food instanceof Grass){
-            System.out.println("Травоядное ест траву");
+            System.out.println(toString() + " ест траву");
+            System.out.println("Степень сытости: "+((Grass)food).getSatiety());
         } else {
-            System.out.println("Травоядное не ест траву");
+            System.out.println(toString() + " не ест мясо");
         }
     }
 }

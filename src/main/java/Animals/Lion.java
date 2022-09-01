@@ -1,15 +1,27 @@
 package Animals;
 
 import food.Food;
+import food.Meat;
 
-public class Lion extends Cornivorous implements Run{
+public class Lion extends Cornivorous implements Run,Voice,Swim{
+
     @Override
-    public void run() {
-
+    public String setVoice() {
+        return "ааааа";
     }
 
     @Override
-    public void eat(Food food) {
+    public void run() {
+        System.out.println("Лев бежит");
 
+    }
+
+    public String toString() {
+        return "Лев";
+    }
+
+    @Override
+    public void swim() {
+        System.out.println(toString() + " плавает в пруду");
     }
 }

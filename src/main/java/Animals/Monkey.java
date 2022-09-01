@@ -1,13 +1,22 @@
 package Animals;
 
-public class Monkey extends Herbivore implements Run{
+import food.Food;
+import food.Meat;
+
+public class Monkey extends Herbivore implements Run,Voice{
+
+    @Override
+    public String setVoice() {
+        return "хи хи";
+    }
+
     @Override
     public void run() {
-
+        System.out.println("Обезьяна бегает");
     }
 
-    @Override
-    public void eat() {
-
+    public String toString() {
+        return "Обезьяна";
     }
+
 }
