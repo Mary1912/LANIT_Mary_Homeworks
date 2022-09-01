@@ -29,15 +29,15 @@ public class Zoo {
 //        Swim lion2 = new Lion();
 //        Swim bear2 = new Bear();
 
-        public static void outputInfo(Swim swim){
-            swim.showInfo();
-        }
-        outputInfo(duck);
-
-        Swim [] pond = {duck, fish, lion, bear};
-        for (int i = 0; i < pond.length; i++) {
-            pond[i].swim();
-        }
+//        public static void outputInfo(Swim swim) {
+//            swim.showInfo();
+//        }
+//        outputInfo(duck);
+//
+//        Swim [] pond = {duck, fish, lion, bear};
+//        for (int i = 0; i < pond.length; i++) {
+//            pond[i].swim();
+//        }
 
     }
 
