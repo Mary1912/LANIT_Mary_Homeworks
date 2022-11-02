@@ -15,11 +15,11 @@ public class Kotik {
         count++;
     }
 
-    public Kotik(String name, String voice, int weight, int satiety) {
+    public Kotik(String name, String voice, int satiety, int weight) {
         this.name = name;
         this.voice = voice;
-        this.weight = weight;
         this.satiety = satiety;
+        this.weight = weight;
         count++;
     }
 
@@ -68,7 +68,7 @@ public class Kotik {
     }
 
     public void printCountKotiks() {
-        System.out.println("Число котиков: " + count);
+        System.out.println("Количество котиков: " + count);
     }
 
     public void eat() {
