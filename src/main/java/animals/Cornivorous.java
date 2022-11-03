@@ -1,11 +1,9 @@
-package Animals;
+package animals;
 
 import food.Food;
-import food.Grass;
 import food.Meat;
 
 public class Cornivorous extends Animal {
-
 
     public String toString() {
       return "Хищник";

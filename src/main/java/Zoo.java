@@ -1,4 +1,4 @@
-import Animals.*;
+import animals.*;
 import food.Food;
 import food.Grass;
 import food.Meat;
@@ -20,24 +20,20 @@ public class Zoo {
 
 
 
-        Worker worker = new Worker("Bob");
+        Worker worker = new Worker("Вася");
+        System.out.println(worker.getName() + " работник зоопарка, он кормит животных");
         worker.feed(monkey, grass);
         worker.getVoice(monkey);
 
-//        Swim duck2 = new Duck();
-//        Swim fish2 = new Fish();
-//        Swim lion2 = new Lion();
-//        Swim bear2 = new Bear();
+        Swim duck2 = new Duck();
+        Swim fish2 = new Fish();
+        Swim lion2 = new Lion();
+        Swim bear2 = new Bear();
 
-//        public static void outputInfo(Swim swim) {
-//            swim.showInfo();
-//        }
-//        outputInfo(duck);
-//
-//        Swim [] pond = {duck, fish, lion, bear};
-//        for (int i = 0; i < pond.length; i++) {
-//            pond[i].swim();
-//        }
+        Swim [] pond = {duck2, fish2, lion2, bear2};
+        for (int i = 0; i < pond.length; i++) {
+            pond[i].canSwim();
+        }
 
     }
 

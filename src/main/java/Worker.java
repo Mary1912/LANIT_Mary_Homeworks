@@ -1,5 +1,5 @@
-import Animals.Animal;
-import Animals.Voice;
+import animals.Animal;
+import animals.Voice;
 import food.Food;
 
 public class Worker {
@@ -9,12 +9,12 @@ public class Worker {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void feed (Animal аnimal, Food food){
@@ -24,6 +24,6 @@ public class Worker {
 
     public void getVoice(Voice animal){
 
-        System.out.println(animal.toString() + " издает звук "+ animal.setVoice());
+        System.out.println(animal.toString() + " " + animal.makeVoice());
     }
 }

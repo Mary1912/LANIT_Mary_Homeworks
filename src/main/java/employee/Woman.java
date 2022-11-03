@@ -1,4 +1,4 @@
-package People;
+package employee;
 
 public class Woman implements Info {
     public String name;

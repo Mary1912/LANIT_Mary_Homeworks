@@ -1,4 +1,4 @@
-package People;
+package employee;
 
 public class Test {
     public static void main(String[] args) {

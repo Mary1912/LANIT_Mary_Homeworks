@@ -1,9 +1,7 @@
-package Animals;
+package animals;
 
 import food.Food;
 import food.Grass;
-
-import java.sql.SQLOutput;
 
 public abstract class Herbivore extends Animal {
 

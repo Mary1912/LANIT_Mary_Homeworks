@@ -1,7 +1,4 @@
-package Animals;
-
-import food.Food;
-import food.Meat;
+package animals;
 
 public class Bear extends Cornivorous implements Run, Voice, Swim {
 
@@ -10,18 +7,18 @@ public class Bear extends Cornivorous implements Run, Voice, Swim {
     }
 
     @Override
-    public void run() {
+    public void canRun() {
         System.out.println("Медведь бежит");
     }
 
     @Override
-    public String setVoice() {
-        return "Ууууу";
+    public String makeVoice() {
+        return "рычит";
     }
 
 
     @Override
-    public void swim() {
+    public void canSwim() {
         System.out.println(toString() + " плавает в пруду");
     }
 }

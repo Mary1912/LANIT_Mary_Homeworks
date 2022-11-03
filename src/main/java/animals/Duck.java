@@ -1,7 +1,4 @@
-package Animals;
-
-import food.Food;
-import food.Meat;
+package animals;
 
 public class Duck extends Herbivore implements Fly,Swim,Voice {
 
@@ -10,17 +7,17 @@ public class Duck extends Herbivore implements Fly,Swim,Voice {
     }
 
     @Override
-    public String setVoice() {
-        return "кря кря";
+    public String makeVoice() {
+        return "крякает";
     }
 
     @Override
-    public void fly() {
-        System.out.println("Утка летает");
+    public void canFly() {
+        System.out.println(toString() + " летит");
     }
 
     @Override
-    public void swim() {
+    public void canSwim() {
 
         System.out.println(toString() + " плавает в пруду");
     }
